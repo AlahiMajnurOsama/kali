@@ -1,5 +1,5 @@
 FROM  danielguerra/ubuntu-xrdp:kali
-EXPOSE 80
+EXPOSE 3389
 
 COPY . /app
 RUN chmod +x /app/start.sh
