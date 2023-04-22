@@ -1,4 +1,4 @@
-FROM kalilinux/kali-rolling
+FROM  danielguerra/ubuntu-xrdp:kali
 EXPOSE 80
 
 RUN apt-get update && \
